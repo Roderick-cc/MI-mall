@@ -9,19 +9,12 @@ import 'mint-ui/lib/style.css'
 Vue.use(MintUI)
 
 
-// import mui from '@/assets/mui/js/mui.js'
-// Vue.prototype.mui =mui
-// new Vue.use(mui)
 
 
-import './assets/mui/css/mui.min.css'
+import "./assets/mui/css/mui.min.css"
 // 导入扩展图标样式
-import './assets/mui/css/icons-extra.css'
-
-
-
-
-
+import "./assets/mui/css/icons-extra.css"
+//阻止 vue 在启动时生成生产提示
 Vue.config.productionTip = false
 
 

@@ -2,7 +2,7 @@
   <div>
       <div class="login-wrap">
         <div class="lgnheader">
-          <em class="milogo">
+          <!-- <em class="milogo">
             <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
               <rect width="48" height="48" rx="3" ry="3" style="fill:#ff6700"></rect>
               <rect x="10" y="15" width="4.2" height="18" style="fill:#FFFFFF"></rect>
@@ -15,7 +15,8 @@
               <rect x="24.2" y="23" width="1.94" height="10" style="fill:#ff6700"></rect>
               <rect x="18.1" y="22.8" width="4.2" height="10.2" style="fill:#FFFFFF"></rect>
             </svg>
-          </em>
+
+          </em> -->
           <h4 class="header-tit-txt">小米帐号登录</h4>
         </div>
         <div class="login-form">
@@ -42,7 +43,7 @@
 <script>
 import '@/assets/css/reset.css'
 import '@/assets/css/login.css'
-import { MessageBox } from 'mint-ui'
+import { MessageBox } from "mint-ui"
 import axios from 'axios'
 export default {
   data(){

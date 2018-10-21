@@ -1,23 +1,8 @@
 <template>
-  <div>
+  <div class="footer-contain clearfix">
       <footer class="nav-footer-wrap">
         <div class="nav-footer-list">
-            <!-- <div class="nav-footer-item" @click="open('/')">
-                <i class="icon iconfont icon-home" :class="{'active': activeNav=='/'}"></i>
-                <span class="item-text" :class="{'active': activeNav=='/'}">首页</span>
-            </div>
-            <div class="nav-footer-item" @click="open('/categories')">
-                <i class="icon iconfont icon-fenlei" :class="{'active': activeNav=='/categories'}"></i>
-                <span class="item-text" :class="{'active': activeNav=='/categories'}">分类</span>
-            </div>
-            <div class="nav-footer-item" @click="open('/cart')">
-                <i class="icon iconfont icon-tianmaochaoshigouwuche"  :class="{'active': activeNav=='/cart'}"></i>
-                <span class="item-text"  :class="{'active': activeNav=='/cart'}">购物车</span>
-            </div>
-            <div class="nav-footer-item" @click="open('/user')">
-                <i class="icon iconfont icon-wo"  :class="{'active': activeNav=='/user'}"></i>
-                <span class="item-text" :class="{'active': activeNav=='/user'}">我的</span>
-            </div> -->
+            
             <router-link   to="/index" class="nav-footer-item"  >
                 <i class="icon iconfont icon-home"></i>
                 <span class="item-text">首页</span>
@@ -99,5 +84,14 @@ export default {
 }
 .active{
       color: #ff6700!important;
+}
+.footer-contain{
+  width: 16.5rem;
+  overflow: hidden;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 </style>

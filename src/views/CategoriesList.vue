@@ -1,7 +1,7 @@
 <template>
 <div>
 	<nav-header>分类</nav-header>
-<div class="mui-content mui-row mui-fullscreen mui-margintop">
+		<div class="mui-content mui-row mui-fullscreen mui-margintop">
 			<div class="mui-col-xs-3">
 				<div id="segmentedControls" class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-vertical">
 					<a class="mui-control-item" data-index="0" href="#content1">新品</a>
@@ -20,7 +20,6 @@
 					<a class="mui-control-item" data-index="13" href="#content14">音频</a>
 					<a class="mui-control-item" data-index="14" href="#content15">箱包</a>
 					<a class="mui-control-item" data-index="15" href="#content16">生活</a>
-					
 				</div>
 			</div>
 
@@ -227,10 +226,6 @@
 								
 							</div>
 					</div>
-
-
-
-
 				</div>
 				<div id="content3" class="mui-control-content">
 					<div class="cc" >
@@ -269,7 +264,6 @@
 							</div>
 					</div>
 				</div>
-
 				<div id="content4" class="mui-control-content">
 					<div class="cc" >
 						<img src="https://i8.mifile.cn/v1/a1/efdcf401-f553-aef7-1751-43854b6f4a20!500x200.webp" alt="">
@@ -449,7 +443,8 @@
 
 <script>
 import mui from '../assets/mui/js/mui.min.js'
-import '../assets/mui/js/swiper.js'
+// import '../assets/mui/js/swiper.js'
+ import aa from '../assets/mui/js/swiper.js'
 import '@/assets/mui/css/app.css'
 import '@/assets/mui/css/aftercss.css'
 
@@ -458,8 +453,14 @@ import NavHeader from '@/components/NavHeader'
 		data (){
 			return {}
 		},
-		mounted(){
-		 
+		created(){
+
+		},
+		async mounted(){	
+		 await aa()
+
+
+
 		},
 		components: {
       		NavHeader
@@ -490,7 +491,7 @@ import NavHeader from '@/components/NavHeader'
 			}
 			
 			.mui-control-content {
-				display: block;
+				display: block!important;
 			}
 			
 			.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
@@ -501,5 +502,8 @@ import NavHeader from '@/components/NavHeader'
 			}
 			.mui-margintop{
 				margin-top: 2.5rem
+			}
+			.mui-segmented-control.mui-segmented-control-inverted a{
+				width: 100%
 			}
 </style>

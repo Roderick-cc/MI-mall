@@ -1,5 +1,4 @@
-/* 变量 */
-/* 移动端相关设置 */
+
 html {
   width: 100%;
   height: 100%;
@@ -11,7 +10,7 @@ body {
   overflow: auto;
   font-size: 1rem;
 }
-/* 工具样式 */
+
 .clearfix:after {
   content: "";
   display: block;

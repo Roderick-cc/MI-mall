@@ -2,10 +2,10 @@
     "allGoods": [
         {
             "goodsId": "0001",
-            "goodsName": "红米5",
+            "goodsName": "小米8",
             "goodsBrief": "12MP旗舰相机，骁龙处理器",
-            "goodsImg": "hongmi5.webp",
-            "goodsPrice": "799",
+            "goodsImg": "xiaomi5x.jpg",
+            "goodsPrice": "1999",
             "goodsType": "phone"
         },
         {
@@ -18,10 +18,10 @@
         },
         {
             "goodsId": "0003",
-            "goodsName": "小米5X 变焦双摄",
-            "goodsBrief": "5.5\"大屏轻薄全金属",
+            "goodsName": "小米8",
+            "goodsBrief": "全球首款双频GPS",
             "goodsImg": "xiaomi5x.jpg",
-            "goodsPrice": "1299",
+            "goodsPrice": "2499",
             "goodsType": "phone"
         },
         {

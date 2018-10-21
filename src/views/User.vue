@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="user">
       <div class="user-wrap">
           <header class="hd">
               <div class="user-logo-box">
@@ -24,6 +24,24 @@
                   </div>
               </div>
           </div>
+          <ul class="mui-table-view view-one">
+            <li class="mui-table-view-cell">
+                <a class="mui-navigate-right">会员中心</a>
+            </li>
+            <li class="mui-table-view-cell">
+                <a class="mui-navigate-right">我的优惠</a>
+            </li>
+   
+          </ul>
+          <ul class="mui-table-view view-two">
+            <li class="mui-table-view-cell">
+                <a class="mui-navigate-right">服务中心</a>
+            </li>
+            <li class="mui-table-view-cell">
+                <a class="mui-navigate-right">小米之家</a>
+            </li>
+   
+          </ul>
       </div>
 
       <div class="cleardata" @click="clearAll">
@@ -90,4 +108,12 @@ export default {
   }
 }
 </script>
+<style>
+    .mui-table-view{
+      margin-top: 0.45rem;
+      padding-left: 2rem!important;
+      
+  }
+
+</style>
 

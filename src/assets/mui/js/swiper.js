@@ -1,24 +1,32 @@
 import mui from "./mui.min.js"
 
-window.onload=function(){
+export default function aa(){
 
-			mui.init({
-				swipeBack: true, //启用右滑关闭功能
-				
-			});
+		mui.init({})
+
+ if(location.hash=="#/categorieslist"){
+        location.reload(); 
+         console.log('1')
+        location.href=location.href+"/";
+
+    }
+
+
 
 			var controls = document.getElementById("segmentedControls");
 			var contents = document.getElementById("segmentedControlContents");
+			var html = [];
+			var i = 1,
+				j = 1,
+				m = 16, //左侧选项卡数量+1
+				n = 21; //每个选项卡列表数量+1
 			
 			
-
 			
+			//默认选中第一个
+			 controls.getElementsByClassName('mui-control-item')[0].classList.add('mui-active');
 
-
-
-
-			controls.querySelector('.mui-control-item').classList.add('mui-active');
-//			
+		//	contents.querySelector('.mui-control-content').classList.add('mui-active');
 			(function() {
 				var controlsElem = document.getElementById("segmentedControls");
 				var contentsElem = document.getElementById("segmentedControlContents");
@@ -32,16 +40,6 @@ window.onload=function(){
 				var controlTops = []; //存储control的scrollTop值
 				var contentTops = [0]; //存储content的scrollTop值
 				var length = contentListElem.length;
-
-
-				
-
-
-
-
-
-
-
 				for (var i = 0; i < length; i++) {
 					controlTops.push(controlListElem[i].offsetTop + controlHeight);
 				}
@@ -110,14 +108,16 @@ window.onload=function(){
 				};
 				mui(controlsElem).on('tap', '.mui-control-item', function(e) {
 					scrollTo(this.getAttribute('data-index'));
+					console.log(this.getAttribute('data-index'))
 					return false;
 				});
-
-
-			
-				
-
-				
-
 			})();
+
+
+
+
+
+
+
+
 }

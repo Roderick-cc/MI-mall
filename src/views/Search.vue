@@ -19,7 +19,7 @@
             <div class="title">热门搜索</div>
             <div class="img">
                 <router-link to="/goodsdetail?id=0012">
-                    <img src="http://i8.mifile.cn/b2c-mimall-media/60c89ea361bed3a7edaf73b3b6663608.jpg?bg=BBD6DF" alt="">
+                    <img src="https://i8.mifile.cn/b2c-mimall-media/62bb99c5117ae77b0ec10ec90a670f47.jpg?w=1080&h=300&bg=A0BEE2" alt="">
                 </router-link>
             </div>
         </div>

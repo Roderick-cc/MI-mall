@@ -110,11 +110,11 @@ export default {
 
      
 
-      var goodsId = this.$route.query.id;
+      const goodsId = this.$route.query.id;
       //遍历商品详情数组，匹配相应ID获取数据
       axios.get('/static/mock/GoodsDetail.json').then(result=>{
-        var goodsList = result.data.goodsDetailList;
-        goodsList.forEach(item=>{
+        const goodsList = result.data.goodsDetailList
+        goodsList.forEach(item => {
           if(item.goodsId == goodsId){
             this.goodsId = item.goodsId;
             this.goodsName = item.goodsName;

@@ -2,15 +2,15 @@
     "goodsDetailList": [
         {
             "goodsId": "0001",
-            "goodsName": "红米5",
+            "goodsName": "小米8",
             "goodsBrief": "搭载了玩游戏超给力的高通骁龙处理器，后置12MP旗舰相机，前置柔光自拍，配备5.7英寸全面屏。",
             "goodsBannerImg": [
-                "https://i8.mifile.cn/v1/a1/7dc38112-bbf4-f3fa-db39-5f4674f9d0d4!720x792.webp",
+                "https://i8.mifile.cn/v1/a1/4cb4b856-651b-7ecc-a75a-9a2c2c983856.webp",
                 "https://i8.mifile.cn/v1/a1/7d040eee-5569-5074-864d-8c03f073e8c8!720x792.webp",
                 "https://i8.mifile.cn/v1/a1/e3980743-9d5d-0a8a-9dab-0a37c8b98ef5!720x792.webp",
                 "https://i8.mifile.cn/v1/a1/60acd23a-cd84-700d-a7fe-6bb31e5ff71b!720x792.webp"
             ],
-            "goodsPrice": "799",
+            "goodsPrice": "1999",
             "goodsIntroImg": [
                 "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2132c260499c16d1869eb626e474bf6f.jpg",
                 "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/5a2b607dedce85d0c297390a1333c092.jpg",
@@ -70,18 +70,16 @@
         },
         {
             "goodsId": "0003",
-            "goodsName": "小米5X 4GB+64GB",
-            "goodsBrief": "光学变焦双摄，拍人更美 / 5.5''大屏轻薄全金属 / 骁龙八核处理器 / 4GB大内存",
+            "goodsName": "小米8",
+            "goodsBrief": "全球首款双频GPS / 骁龙845处理器 / 红外人脸解锁 / AI变焦双摄 / 三星 AMOLED 屏",
             "goodsBannerImg": [
-                "https://i8.mifile.cn/v1/a1/2da996b7-4b5d-0b42-917d-fdb27db12dc9!720x792.webp",
-                "https://i8.mifile.cn/v1/a1/090d6b69-5d8b-2895-85f2-13c22577bede!720x792.webp",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/16c29ae096d0d35eaa8a2139b6ed2bd1.jpg",
-                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a5b5500ba1f1a1ed3eade6d83ccd64b4.jpg"
+                "https://i8.mifile.cn/v1/a1/4cb4b856-651b-7ecc-a75a-9a2c2c983856.webp",
+                "https://i8.mifile.cn/v1/a1/4cb4b856-651b-7ecc-a75a-9a2c2c983856.webp"
             ],
-            "goodsPrice": "1499",
+            "goodsPrice": "2499",
             "goodsIntroImg": [
-                "https://i8.mifile.cn/v1/a1/749cd8d8-c84a-1412-fb2c-151bd34d82cc.jpg",
-                "https://i8.mifile.cn/v1/a1/c68d5359-a700-7aa5-5e6c-685d95054249.jpg",
+                "https://m.mi.com/commodity/detail/10000099",
+                "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/3df9382fc5e31334a08788b1ca80756f.jpg?w=1080&h=899&bg=FFFFFF",
                 "https://i8.mifile.cn/v1/a1/aa57a386-739f-8af1-b319-9a745f149e9b.jpg",
                 "https://i8.mifile.cn/v1/a1/51cec16e-4a1d-51b2-7555-27245bc76f7c.jpg",
                 "https://i8.mifile.cn/v1/a1/e0da78b9-43ed-a0bd-a0a9-6bba1df52653.jpg",

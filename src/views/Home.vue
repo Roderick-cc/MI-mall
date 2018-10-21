@@ -67,16 +67,14 @@
             </a>
              <a class="mui-control-item"  >
               健康
-            </a>
-          
-
+            </a> 
           </div>
         </div>
         <div class="display-bottom"><i class="fa fa-angle-down"></i></div>
       </div>
 
 
-
+<div class="mui-control-item" style="display: none"></div>
 
     <section class="content-wrap">
         <!-- 轮播图 -->
@@ -152,7 +150,7 @@
             <ul class="normal-item-list clearfix">
          
 
-           <router-link class="normal-item"  :to="{path :'/goodsdetail', query:{id : item.goodsId}}" v-for="item in goodsList" >
+           <router-link class="normal-item"  :to="{path :'/goodsdetail', query:{id : item.goodsId}}" v-for="item in goodsList" :key="item.goodsId" >
 
                             <div class="img"> 
                                 <img :src="'/static/' + item.goodsImg" alt="">
@@ -183,8 +181,7 @@
 <script>
 import '@/assets/css/reset.css'
 import '@/assets/css/homepage.css'
-// import '@/assets/js/scroll.js'
-// import NavFooter from '@/components/NavFooter'
+
 import mui from '@/assets/mui/js/mui.min.js'
 
 import axios from 'axios'
@@ -241,7 +238,7 @@ export default {
       touch-action: none;
       box-sizing:border-box;
       padding-right:40px;
-      width: 16.5rem;
+      width: 16.05rem;
           
     }
     .display-bottom{
