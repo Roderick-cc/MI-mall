@@ -29,19 +29,19 @@ npm run dev
 
 首页
 
-![1](C:\Users\Dobin\Desktop\1.gif)
+![1](https://github.com/heimaozi/MI-mall/blob/master/REAMD-GIf/1.gif)
 
 
 
 分类页————————————————————————————
 
-![2](C:\Users\Dobin\Desktop\2.gif)
+![2](https://github.com/heimaozi/MI-mall/blob/master/REAMD-GIf/2.gif)
 
 ——————————————————————————————————
 
 ——————————————————————————————————
 
-![3](C:\Users\Dobin\Desktop\3.gif)
+![3](https://github.com/heimaozi/MI-mall/blob/master/REAMD-GIf/3.gif)
 
 ——————————————————————————————
 
@@ -49,7 +49,7 @@ npm run dev
 
 用户界面
 
-![4](C:\Users\Dobin\Desktop\4.png)
+![4](https://github.com/heimaozi/MI-mall/blob/master/REAMD-GIf/4.png)
 
 
 
@@ -57,7 +57,7 @@ npm run dev
 
 ——————————————————————————————
 
-![5](C:\Users\Dobin\Desktop\5.png)
+![5](https://github.com/heimaozi/MI-mall/blob/master/REAMD-GIf/5.png)
 
 ### 结语
 
